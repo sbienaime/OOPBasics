@@ -21,7 +21,7 @@ print("Below is another instance/object of this same class.\n \n ")
 
 ans = 'N'
 while (ans !="y" ) :
-    ans = input("Are you read to see an other instance of the same class, type the letter (y) when youre ready  ")
+    ans = input("Are you ready to see an other instance of the same class, type the letter (y) when youre ready  ")
 
 #this is another instance or object of the Cars class
 myOtherCar = cars.Cars(5,'green','Toyota','camry')
